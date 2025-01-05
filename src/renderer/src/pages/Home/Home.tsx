@@ -11,12 +11,22 @@ type HomeProps = {};
 const Home: React.FC<HomeProps> = () => {
   return (
     <div className="home">
-      <h1>Home</h1>
-      <Link to="/about">
-        <Button>Go to About</Button>
-      </Link>
+      <div className="home__content">
+        <div className="home__header">
+          <h1>Valence</h1>
+          <p>Electron-based ATProto client.</p>
+        </div>
+        <div className="home__actions">
+          <Link to="/login">
+            <Button style={{ width: '150px' }}>Login</Button>
+          </Link>
+          <Link to="/register">
+            <Button style={{ width: '150px' }}>Register</Button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default Home;

@@ -1,24 +1,24 @@
 @import '../../assets/base.css';
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    background: var(--color-accent-soft);
-    color: var(--color-front);
-    font-size: 1rem;
-    font-weight: 600;
-    transition: background 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background: var(--color-accent-soft);
+  color: var(--color-front);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s;
 }
 
 .button:hover {
-    background: var(--color-accent);
-    cursor: pointer;
+  background: var(--color-accent);
+  cursor: pointer;
 }
 
 .button:active {
-    background: var(--color-accent-dark);
-    cursor: pointer;
+  background: var(--color-accent-dark);
+  cursor: pointer;
 }
